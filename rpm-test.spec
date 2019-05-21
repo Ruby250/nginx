@@ -1,11 +1,9 @@
 Name: rpm-test
-Version: 0.0.1
 Release: 1.el7
 Summary: just test
 URL: https://github.com/cyrnotcry/rpm-test.git
 Group: Applications/System
 License: GPL
-Source: {{{ git_dir_pack }}}
 BuildArch: noarch
 
 %description
