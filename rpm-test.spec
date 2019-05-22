@@ -62,7 +62,6 @@ Source7: nginx.suse.init
 Source8: nginx.service
 Source9: nginx.upgrade.sh
 Source10: release-%{nps_version}-beta.zip
-Source11: %{nps_version}.tar.gz
 
 License: 2-clause BSD-like license
 
