@@ -51,7 +51,7 @@ Release: 1%{?dist}.ctlt
 Vendor: nginx inc.
 URL: http://nginx.org/
 
-Source0: http://nginx.org/download/%{name}-%{version}.tar.gz
+Source0: https://nginx.org/download/%{name}-%{version}.tar.gz
 Source1: logrotate
 Source2: nginx.init
 Source3: nginx.sysconf
