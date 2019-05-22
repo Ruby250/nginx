@@ -45,7 +45,7 @@ Requires(pre): pwdutils
 # end of distribution specific definitions
 
 Summary: High performance web server
-Name: rpm-test
+Name: nginx
 Version: 1.6.0
 Release: 1.el7
 Vendor: nginx inc.
