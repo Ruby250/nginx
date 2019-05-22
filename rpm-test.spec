@@ -340,3 +340,6 @@ if [ $1 -ge 1 ]; then
 fi
 
 %changelog
+* Thu Apr 24 2014 Konstantin Pavlov <thresh@nginx.com>
+- 1.6.0
+- http-auth-request module added
