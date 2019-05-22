@@ -84,15 +84,10 @@ Not stripped version of nginx built with the debugging log support.
 %prep
 %setup -q
 cd %{_builddir}/%{name}-%{version}
-%{__unzip} -o %{SOURCE10}
 if [ $? -ne 0 ]; then
   exit $?
 fi
-cd ngx_pagespeed-release-%{nps_version}-beta
-%{__tar} xzf %{SOURCE11}
-if [ $? -ne 0 ]; then
-  exit $?
-fi
+
 chmod -Rf a+rX,u+w,g-w,o-w .
 
 %build
